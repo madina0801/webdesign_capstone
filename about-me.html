@@ -4,9 +4,146 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>ABOUT ME</title>
+    <title>About me</title>
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Italiana&family=Nunito:wght@300;400;500;700&family=Roboto+Mono:wght@400;500&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon" />
+    <!-- Bootstrap -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css
+    "
+    />
+    <!-- Custom styles -->
+    <link rel="stylesheet" href="styles/about-me.css" />
   </head>
-  <body></body>
+  <body>
+    <nav id="navbar">
+      <a href="main.html">Main</a>
+      <a href="#">Contact</a>
+    </nav>
+
+    <div class="aboutme__container">
+      <h2 class="aboutme__container-title">About Me</h2>
+      <p class="aboutme__container-desc">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta
+        voluptatum magni reprehenderit est necessitatibus rerum sunt, quam
+        praesentium sint dolor ut esse possimus accusantium. Sed officia
+        voluptatibus quidem suscipit ut. Lorem ipsum dolor sit amet consectetur
+        adipisicing elit. Hic optio accusantium reprehenderit veritatis nostrum
+        iure, rem, quaerat culpa consequatur vel, nobis minus voluptatibus
+        voluptatum excepturi. Quibusdam fugit vel illo repellat.
+      </p>
+    </div>
+
+    <h2 class="myprojects__heading">My Projects</h2>
+    <div class="projects__container">
+      <div
+        id="carouselExampleCaptions"
+        class="carousel slide"
+        data-bs-ride="false"
+      >
+        <div class="carousel-indicators">
+          <button
+            type="button"
+            data-bs-target="#carouselExampleCaptions"
+            data-bs-slide-to="0"
+            class="active"
+            aria-current="true"
+            aria-label="Slide 1"
+          ></button>
+          <button
+            type="button"
+            data-bs-target="#carouselExampleCaptions"
+            data-bs-slide-to="1"
+            aria-label="Slide 2"
+          ></button>
+          <button
+            type="button"
+            data-bs-target="#carouselExampleCaptions"
+            data-bs-slide-to="2"
+            aria-label="Slide 3"
+          ></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <a target="_blank" href="https://madina0801.github.io/drum-kit/"
+              ><img
+                src="images/project_drumkit.PNG"
+                class="img-fluid d-block w-100"
+                alt="Drum Kit Project Screenshot"
+            /></a>
+            <div class="carousel-caption d-none d-md-block">
+              <h5></h5>
+              <p>Drum Kit</p>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <a
+              target="_blank"
+              href="https://madina0801.github.io/guess-my-number/"
+              ><img
+                src="images/project_guessmynum.PNG"
+                class="d-block w-100"
+                alt="Guess My Number Project Screenshot"
+            /></a>
+            <div class="carousel-caption d-none d-md-block">
+              <h5></h5>
+              <p>Guess My Number Game</p>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <a
+              target="_blank"
+              href="https://madina0801.github.io/tindog-project/"
+              ><img
+                src="images/project_tindog.PNG"
+                class="d-block w-100"
+                alt="Tindog Project Screenshot"
+            /></a>
+            <div class="carousel-caption d-none d-md-block">
+              <h5></h5>
+              <p>Tindog Website</p>
+            </div>
+          </div>
+        </div>
+        <button
+          class="carousel-control-prev"
+          type="button"
+          data-bs-target="#carouselExampleCaptions"
+          data-bs-slide="prev"
+        >
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button
+          class="carousel-control-next"
+          type="button"
+          data-bs-target="#carouselExampleCaptions"
+          data-bs-slide="next"
+        >
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+    </div>
+
+    <footer
+      class="py-3 border-top"
+    >
+      <p class="text-center">Portfolio &copy; 2023</p>
+    </footer>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.min.js"
+      integrity="sha384-mQ93GR66B00ZXjt0YO5KlohRA5SY2XofN4zfuZxLkoj1gXtW8ANNCe9d5Y3eG5eD"
+      crossorigin="anonymous"
+    ></script>
+  </body>
 </html>
-
-

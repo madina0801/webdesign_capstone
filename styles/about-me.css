@@ -1,0 +1,73 @@
+:root {
+  --light-color: #ceafff;
+  --dark-color: #2c0735;
+  --link-hover: #574b90;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background-color: var(--light-color);
+  color: var(--dark-color);
+  font-family: "Nunito", sans-serif;
+}
+
+li {
+  list-style-type: none;
+}
+
+a {
+  text-decoration: none;
+  color: var(--dark-color);
+}
+
+h2 {
+  font-weight: 500;
+}
+
+#navbar {
+  font-family: "Roboto Mono", sans-serif;
+  font-size: 2em;
+  font-weight: 500;
+  margin-left: 10%;
+  margin-top: 1em;
+}
+
+#navbar a {
+  transition: all linear 0.3s;
+}
+
+#navbar a:hover {
+  color: var(--link-hover);
+}
+
+/* Aboout section */
+.aboutme__container {
+  margin-top: 2em;
+  margin-inline: 10%;
+  text-align: center;
+  padding-bottom: 3.5em;
+  font-size: 135%;
+}
+
+.aboutme__container-title {
+  margin-bottom: 1em;
+}
+
+/* Projects section */
+.myprojects__heading {
+  text-align: center;
+}
+
+.projects__container {
+  padding-top: 2em;
+  padding-bottom: 5em;
+  margin-inline: 10%;
+  text-align: center;
+}
+
+footer {
+  font-family: "Roboto Mono", serif;
+  font-weight: 500;
+}
