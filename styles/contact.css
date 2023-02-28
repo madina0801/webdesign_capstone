@@ -1,0 +1,86 @@
+:root {
+  --light-color: #ceafff;
+  --dark-color: #2c0735;
+  --link-hover: #574b90;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background-color: var(--light-color);
+  color: var(--dark-color);
+}
+
+li {
+  list-style-type: none;
+}
+
+a {
+  text-decoration: none;
+  color: var(--dark-color);
+}
+
+.navbar {
+  font-family: "Roboto Mono", sans-serif;
+  font-size: 2em;
+  font-weight: 500;
+  margin-left: 10%;
+  margin-top: 1em;
+}
+
+.navbar a {
+  transition: all linear 0.3s;
+}
+
+.navbar a:hover {
+  color: var(--link-hover);
+}
+
+.container-fluid h2 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+#form__container {
+  display: flex;
+  flex-direction: column;
+  margin-inline: 10%;
+  margin-bottom: 10%;
+}
+
+.form-label {
+  font-family: "Roboto Mono", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 150%;
+}
+
+.btn {
+  align-self: center;
+  background: var(--dark-color);
+  border: none;
+  width: 50%;
+  margin-top: 1.5em;
+}
+
+.btn:hover {
+  background: var(--link-hover);
+}
+
+.form-control {
+  border-radius: 25px;
+}
+
+footer {
+  font-family: "Roboto Mono", serif;
+  font-weight: 500;
+}
+
+@media (max-width: 900px) {
+  .container-fluid h2 {
+    margin-top: 2em;
+  }
+}

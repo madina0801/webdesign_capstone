@@ -26,7 +26,7 @@ h2 {
   font-weight: 500;
 }
 
-#navbar {
+.navbar {
   font-family: "Roboto Mono", sans-serif;
   font-size: 2em;
   font-weight: 500;
@@ -34,11 +34,11 @@ h2 {
   margin-top: 1em;
 }
 
-#navbar a {
+.navbar a {
   transition: all linear 0.3s;
 }
 
-#navbar a:hover {
+.navbar a:hover {
   color: var(--link-hover);
 }
 
