@@ -66,6 +66,10 @@ a {
   margin-top: 1.5em;
 }
 
+.btn:focus {
+  background: var(--dark-color);
+}
+
 .btn:hover {
   background: var(--link-hover);
 }

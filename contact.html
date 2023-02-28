@@ -55,7 +55,7 @@
 
     <div class="container-fluid">
       <h2>Contact Me</h2>
-      <form id="form__container">
+      <form id="form__container" class="needs-validation" novalidate>
         <div class="mb-3">
           <label id="name" for="name" class="form-label">Name</label>
           <input
@@ -63,6 +63,7 @@
             class="form-control"
             id="name__input"
             placeholder="name@example.com"
+            required
           />
         </div>
         <div class="mb-3">
@@ -72,18 +73,19 @@
             class="form-control"
             id="email__input"
             placeholder="name@example.com"
+            required
           />
         </div>
         <div class="mb-3">
           <label for="textarea" class="form-label">Message</label>
-          <textarea class="form-control" id="textarea" rows="3" placeholder="Enter your message"></textarea>
+          <textarea class="form-control" id="textarea" rows="3" placeholder="Enter your message" required></textarea>
         </div>
         <button class="btn btn-primary" href="#" onclick="validateForm()">
           Send
         </button>
       </form>
 
-      <div class="status"></div>
+      <div class="valid-feedback"></div>
     </div>
     <footer class="py-3 border-top">
       <p class="text-center">Portfolio &copy; 2023</p>
